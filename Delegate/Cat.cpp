@@ -24,7 +24,7 @@ std::vector<ICatShout2*>& Cat::GetEventHandler()
 
 void Cat::Shout()
 {
-  std::cout << "喵，我是" << m_Name << "。" << std::endl;
+  std::cout << "Miaow. I am " << m_Name << "." << std::endl;
 
   if (m_pArgs == nullptr)
     m_pArgs = new CatShoutEventArgs();
