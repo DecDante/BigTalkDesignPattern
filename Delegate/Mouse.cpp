@@ -9,5 +9,5 @@ Mouse::Mouse(const std::string& name)
 
 void Mouse::Run(Cat* cat, CatShoutEventArgs* args)
 {
-  std::cout << "老猫" << args->GetName() << "来了，" << m_Name << "快跑！" << std::endl;
+  std::cout << "Old cat " << args->GetName() << " is coming! " << m_Name << "! Run!" << std::endl;
 }
