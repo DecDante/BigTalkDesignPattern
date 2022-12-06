@@ -11,5 +11,5 @@ Person::~Person()
 
 void Person::Show()
 {
-  std::cout << "×°°çµÄ" << m_Name << std::endl;
+  std::cout << "è£…æ‰®çš„" << m_Name << std::endl;
 }
