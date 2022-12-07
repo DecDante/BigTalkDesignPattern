@@ -12,5 +12,5 @@ Dog::Dog(const QString &name):
 
 const QString Dog::GetShoutSound() const
 {
-  return "Íô";
+  return "æ±ª";
 }
