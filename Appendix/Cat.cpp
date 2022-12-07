@@ -12,5 +12,5 @@ Cat::Cat(const QString &name):
 
 const QString Cat::GetShoutSound() const
 {
-  return "ίχ";
+  return "ε–µ";
 }
