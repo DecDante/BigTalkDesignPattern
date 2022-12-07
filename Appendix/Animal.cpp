@@ -1,7 +1,7 @@
 #include "Animal.h"
 
 Animal::Animal()
-  :m_Name("ÎŞÃû"),
+  :m_Name("æ— å"),
   m_ShoutNum(3)
 {
 }
@@ -37,9 +37,9 @@ const QString Animal::Shout() const
   QString shoutResult("");
   for (int i = 0; i < m_ShoutNum; ++i)
   {
-    shoutResult.append("£¬").append(GetShoutSound());
+    shoutResult.append("ï¼Œ").append(GetShoutSound());
   }
-  return QString("ÎÒµÄÃû×Ö½Ğ").append(m_Name).append(shoutResult);
+  return QString("æˆ‘çš„åå­—å«").append(m_Name).append(shoutResult);
 }
 
 const QString Animal::GetShoutSound() const
