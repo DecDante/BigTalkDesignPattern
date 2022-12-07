@@ -12,5 +12,5 @@ Monkey::Monkey(const QString &name) :
 
 const QString Monkey::GetShoutSound() const
 {
-  return "֨";
+  return "֨吱";
 }
