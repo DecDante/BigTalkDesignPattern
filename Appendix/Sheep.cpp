@@ -12,5 +12,5 @@ Sheep::Sheep(const QString &name) :
 
 const QString Sheep::GetShoutSound() const
 {
-  return "ίγ";
+  return "ε’©";
 }
