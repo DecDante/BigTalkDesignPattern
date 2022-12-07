@@ -4,7 +4,7 @@
 int main()
 {
   SchoolGirl lijiaojiao;
-  lijiaojiao.SetName("Àî½¿½¿");
+  lijiaojiao.SetName("æå¨‡å¨‡");
   Proxy daili(&lijiaojiao);
 
   daili.GiveDolls();
