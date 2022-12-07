@@ -1,7 +1,7 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#if _MSC_VER >= 1600 //对应的VS版本至少为VS2010
+#if _MSC_VER >= 1600 //瀵瑰簲鐨刅S鐗堟湰鑷冲皯涓篤S2010
 #pragma execution_character_set("utf-8")
 #endif
 
