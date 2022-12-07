@@ -12,5 +12,5 @@ Cattle::Cattle(const QString &name) :
 
 const QString Cattle::GetShoutSound() const
 {
-  return "ίθ";
+  return "ε“";
 }
