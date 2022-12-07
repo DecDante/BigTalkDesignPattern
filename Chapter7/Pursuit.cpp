@@ -10,19 +10,19 @@ void Pursuit::GiveDolls()
 {
   if (m_pMM == nullptr)
     return;
-  std::cout << m_pMM->GetName() << " ËÍÄãÑóÍÞÍÞ" << std::endl;
+  std::cout << m_pMM->GetName() << " é€ä½ æ´‹å¨ƒå¨ƒ" << std::endl;
 }
 
 void Pursuit::GiveFlowers()
 {
   if (m_pMM == nullptr)
     return;
-  std::cout << m_pMM->GetName() << " ËÍÄãÏÊ»¨" << std::endl;
+  std::cout << m_pMM->GetName() << " é€ä½ é²œèŠ±" << std::endl;
 }
 
 void Pursuit::GiveChocolate()
 {
   if (m_pMM == nullptr)
     return;
-  std::cout << m_pMM->GetName() << " ËÍÄãÇÉ¿ËÁ¦" << std::endl;
+  std::cout << m_pMM->GetName() << " é€ä½ å·§å…‹åŠ›" << std::endl;
 }
