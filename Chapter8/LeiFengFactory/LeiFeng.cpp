@@ -6,15 +6,15 @@ LeiFeng::~LeiFeng()
 
 void LeiFeng::Sweep()
 {
-  std::cout << "É¨µØ" << std::endl;
+  std::cout << "æ‰«åœ°" << std::endl;
 }
 
 void LeiFeng::Wash()
 {
-  std::cout << "Ï´ÒÂ·þ" << std::endl;
+  std::cout << "æ´—è¡£æœ" << std::endl;
 }
 
 void LeiFeng::BuyRice()
 {
-  std::cout << "ÂòÃ×" << std::endl;
+  std::cout << "ä¹°ç±³" << std::endl;
 }
