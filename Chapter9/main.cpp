@@ -4,18 +4,18 @@
 
 int main()
 {
-  Resume a("´óÄñ");
-  a.SetPersonalInfo("ÄÐ", "29");
-  a.SetWorkExperience("1998-2000", "XX¹«Ë¾");
+  Resume a("å¤§é¸Ÿ");
+  a.SetPersonalInfo("ç”·", "29");
+  a.SetWorkExperience("1998-2000", "XXå…¬å¸");
   a.Display();
 
   Resume* b = a.Clone();
-  b->SetWorkExperience("1998-2006", "YYÆóÒµ");
+  b->SetWorkExperience("1998-2006", "YYä¼ä¸š");
   b->Display();
   delete b;
 
   Resume* c = a.Clone();
-  c->SetWorkExperience("1998-2003", "ZZÆóÒµ");
+  c->SetWorkExperience("1998-2003", "ZZä¼ä¸š");
   c->Display();  
   delete c;
 
