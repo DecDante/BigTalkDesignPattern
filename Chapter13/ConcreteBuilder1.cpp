@@ -14,12 +14,12 @@ ConcreteBuilder1::~ConcreteBuilder1()
 
 void ConcreteBuilder1::BuildPartA()
 {
-  m_pProduct->Add("部件A");
+  m_pProduct->Add("閮ㄤ欢A");
 }
 
 void ConcreteBuilder1::BuildPartB()
 {
-  m_pProduct->Add("部件B");
+  m_pProduct->Add("閮ㄤ欢B");
 }
 
 Product* ConcreteBuilder1::GetResult()
