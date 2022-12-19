@@ -13,5 +13,5 @@ void NBAObserver::CloseNBADirectSeeding()
   if (m_pSubject == nullptr)
     return;
   std::cout << m_pSubject->GetSubjectState() << " " << m_Name
-    << " " << "关闭NBA直播，继续工作！" << std::endl;
+    << " " << "鍏抽棴NBA鐩存挱锛岀户缁伐浣滐紒" << std::endl;
 }
