@@ -7,10 +7,10 @@ Guards::Guards(const std::string& name)
 
 void Guards::Attach()
 {
-  std::cout << "ºóÎÀ " << m_Name << " ½ø¹¥" << std::endl;
+  std::cout << "åŽå« " << m_Name << " è¿›æ”»" << std::endl;
 }
 
 void Guards::Defense()
 {
-  std::cout << "ºóÎÀ " << m_Name << " ·ÀÊØ" << std::endl;
+  std::cout << "åŽå« " << m_Name << " é˜²å®ˆ" << std::endl;
 }
