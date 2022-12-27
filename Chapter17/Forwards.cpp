@@ -7,10 +7,10 @@ Forwards::Forwards(const std::string& name)
 
 void Forwards::Attach()
 {
-  std::cout << "Ç°·æ " << m_Name << " ½ø¹¥" << std::endl;
+  std::cout << "å‰é”‹ " << m_Name << " è¿›æ”»" << std::endl;
 }
 
 void Forwards::Defense()
 {
-  std::cout << "Ç°·æ " << m_Name << " ·ÀÊØ" << std::endl;
+  std::cout << "å‰é”‹ " << m_Name << " é˜²å®ˆ" << std::endl;
 }
