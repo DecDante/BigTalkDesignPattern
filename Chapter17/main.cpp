@@ -6,17 +6,18 @@
 
 int main()
 {
-  Player* b = new Forwards("°ÍµÙ¶û");
+  Player* b = new Forwards("å·´è’‚å°”");
   b->Attach();
 
-  Player* m = new Guards("Âó¿Ë¸ñÀ×µÏ");
+  Player* m = new Guards("éº¦å…‹æ ¼é›·è¿ª");
   m->Attach();
 
-  Player* ym = new Translator("Ò¦Ã÷");
+  Player* ym = new Translator("å§šæ˜");
   ym->Attach();
   ym->Defense();
 
   delete b;
   delete m;
+  delete ym;
   return 0;
 }
