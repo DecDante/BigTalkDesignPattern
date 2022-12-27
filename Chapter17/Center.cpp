@@ -7,10 +7,10 @@ Center::Center(const std::string& name)
 
 void Center::Attach()
 {
-  std::cout << "ÖĞ·æ " << m_Name << " ½ø¹¥" << std::endl;
+  std::cout << "ä¸­é”‹ " << m_Name << " è¿›æ”»" << std::endl;
 }
 
 void Center::Defense()
 {
-  std::cout << "ÖĞ·æ " << m_Name << " ·ÀÊØ" << std::endl;
+  std::cout << "ä¸­é”‹ " << m_Name << " é˜²å®ˆ" << std::endl;
 }
