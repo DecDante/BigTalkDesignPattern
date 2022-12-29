@@ -20,5 +20,5 @@ void FinanceDepartment::Display(int depth)
 
 void FinanceDepartment::LineOfDuty()
 {
-  std::cout << m_Name << " 公司财务收支管理" << std::endl;
+  std::cout << m_Name << " 鍏徃璐㈠姟鏀舵敮绠＄悊" << std::endl;
 }
