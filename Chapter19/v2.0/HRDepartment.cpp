@@ -20,5 +20,5 @@ void HRDepartment::Display(int depth)
 
 void HRDepartment::LineOfDuty()
 {
-  std::cout << m_Name << " Ô±¹¤ÕÐÆ¸ÅàÑµ¹ÜÀí" << std::endl;
+  std::cout << m_Name << " å‘˜å·¥æ‹›è˜åŸ¹è®­ç®¡ç†" << std::endl;
 }
